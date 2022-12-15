@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/styles/gameStyles.css">
+</head>
+<body>
+    <main>
+        <h1> <%= header1 %></h1>
+        <form action="<%= action %>" method="post">
+            <div class="form-groups">
+                <p class="form-group">
+                    <label for="number">Game No:</label>
+                    <input type="text" name="number" id="number" size="5"
+                    value="<%= number.value %>"  <%= number.readonly %> >
+                </p>
+                <p class="form-group">
+                    <label for="name">Game Name:</label>
+                    <input type="text" name="name" id="name" size="15"
+                    value="<%= name.value %>"  <%= name.readonly %> >
+                </p>
+                <p class="form-group">
+                    <label for="quantity">Quantity:</label>
+                    <input type="text" name="quantity" id="quantity" size="25"
+                    value="<%= quantity.value %>"  <%= quantity.readonly %> >
+                </p>
+                <p class="form-group">
+                    <label for="genre">Genre:</label>
+                    <input type="text" name="genre" id="genre" size="10"
+                    value="<%= genre.value %>" <%= genre.readonly %> >
+                </p>
+                <p class="form-group">
+                    <label for="rating">Ratings:</label>
+                    <input type="text" name="rating" id="rating" size="10"
+                    value="<%= rating.value %>" <%= rating.readonly %> >
+                </p>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <a href="/"><button>Home</button></a>
+    </main>
+</body>
+</html>

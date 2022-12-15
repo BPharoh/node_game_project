@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Games</title>
+    <link rel="stylesheet" href="/styles/gameStyles.css">
+</head>
+<body>
+    <main>
+        <h2>All Games</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Game Number</th>
+                    <th>Game Name</th>
+                    <th>Quantity</th>
+                    <th>Genre</th>
+                    <th>Rating</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% result.forEach(game => { %>
+                    <tr>
+                        <td><%= game.number %></td>
+                        <td><%= game.name %></td>
+                        <td><%= game.quantity %></td>
+                        <td><%= game.genre %></td>
+                        <td><%= game.rating %></td>
+                    </tr>
+                <% }) %>
+            </tbody>
+        </table>
+        <a href="/"><button>Home</button></a>
+    </main>
+</body>
+</html>

@@ -1,0 +1,58 @@
+[
+    {
+        "number": 2,
+        "name": "Star Adventure",
+        "quantity": 100,
+        "genre": "board game",
+        "rating": "**"
+    },
+    {
+        "number": 1,
+        "name": "Amnesia 2030",
+        "quantity": 7,
+        "genre": "adventure",
+        "rating": "*****"
+    },
+    {
+        "number": 5,
+        "name": "The Rise and Fall of an Empire 22",
+        "quantity": 30,
+        "genre": "platformer",
+        "rating": "*"
+    },
+    {
+        "number": 4,
+        "name": "Ladybirds",
+        "quantity": 20,
+        "genre": "FPS",
+        "rating": "*"
+    },
+    {
+        "number": 3,
+        "name": "Jigsaw puzzle",
+        "quantity": 10,
+        "genre": "brain-teaser",
+        "rating": "**"
+    },
+    {
+        "number": 6,
+        "name": "U.F.O",
+        "quantity": 5,
+        "genre": "strategy",
+        "rating": "***"
+    },
+    {
+        "number": 7,
+        "name": "Future 2525",
+        "quantity": 25,
+        "genre": "brain-twister",
+        "rating": "****"
+    },
+    {
+        "number": 8,
+        "name": "ludo",
+        "quantity": 80,
+        "genre": "board game",
+        "rating": "***"
+    }
+]
