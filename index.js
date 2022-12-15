@@ -28,7 +28,7 @@ app.get('/all', (req,res)=>
 app.get('/getgame', (req, res) =>
 res.render('getgame', {
     title: 'Get',
-    header1: 'Get game info',
+    header1: 'Get Info',
     action: '/getgame'
 }));
 
@@ -65,7 +65,7 @@ dataStorage.insert(req.body)
 app.get('/updategame', (req, res) => 
 res.render('form',{
     title: 'Update game',
-    header1: 'Update game data',
+    header1: 'Update Info',
     action: '/updatedata',
     number: {value:'', readonly:''},
     name: {value:'', readonly:'readonly'},
@@ -80,7 +80,7 @@ app.post('/updatedata', (req, res)=>{
     .then(game=>
     res.render('form',{
         title: 'Update game',
-        header1: 'Update game data',
+        header1: 'Update Info',
         action: '/update',
         number: {value: game.number, readonly:'readonly'},
         name: {value: game.name, readonly:''},
@@ -103,7 +103,7 @@ app.post('/update', (req, res)=>{
 app.get('/removegame', (req, res) =>
 res.render('getgame', {
     title: 'Remove',
-    header1: 'Remove a game',
+    header1: 'Remove Game',
     action: '/removegame'
 }));
 

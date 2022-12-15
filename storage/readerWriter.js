@@ -8,7 +8,7 @@ async function readStorage(storageFile){
         return JSON.parse(data);
     }
     catch(err){
-        console.log(err.message); //for debug
+
         return [];
     }
 }
@@ -22,7 +22,7 @@ async function writeStorage(storageFile,data){
         return true;
     }
     catch(err){
-        // console.log(err); //for debug
+        
         return false;
     }
 }

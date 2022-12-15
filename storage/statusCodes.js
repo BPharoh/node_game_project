@@ -19,12 +19,12 @@ const MESSAGES = {
         type: 'error'
     }),
     NOT_FOUND: number => ({
-        message: `No game found with number ${number}`,
+        message: `No game with number ${number} was found in the collection`,
         code: CODES.NOT_FOUND,
         type: 'error'
     }),
     INSERT_OK: number => ({
-        message: `Game ${number} was inserted`,
+        message: `Game ${number} was uploaded to collections`,
         code: CODES.INSERT_OK,
         type: 'info'
     }),
@@ -34,27 +34,27 @@ const MESSAGES = {
         type:'error'
     }),
     ALREADY_IN_USE: number=>({
-        message:`Game number ${number} was already in use`,
+        message:`Game number ${number}  already exist in the collection`,
         code:CODES.ALREADY_IN_USE,
         type:'error'
     }),
     UPDATE_OK: number=>({
-        message:`Game ${number} was updated`,
+        message:`Game ${number} data has been updated`,
         code:CODES.UPDATE_OK,
         type:'info'
     }),
     NOT_UPDATED: ()=>({
-        message:'Data was not updated',
+        message:'Data was not successfully updated',
         code:CODES.NOT_UPDATED,
         type:'error'
     }),
     REMOVE_OK: number=>({
-        message:`Game ${number} was removed`,
+        message:`Game ${number} was removed from the collections`,
         code:CODES.REMOVE_OK,
         type:'info'
     }),
     NOT_REMOVED: number=>({
-        message:`No game found with number ${number}.Nothing removed`,
+        message:`No game found in collection with number ${number}.Nothing has been removed yet`,
         code:CODES.NOT_REMOVED,
         type:'error'
     })

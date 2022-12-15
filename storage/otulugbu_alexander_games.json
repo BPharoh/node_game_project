@@ -3,56 +3,84 @@
         "number": 2,
         "name": "Star Adventure",
         "quantity": 100,
-        "genre": "board game",
+        "genre": "Board Games",
         "rating": "**"
     },
     {
         "number": 1,
         "name": "Amnesia 2030",
         "quantity": 7,
-        "genre": "adventure",
+        "genre": "Adventures",
         "rating": "*****"
     },
     {
         "number": 5,
         "name": "The Rise and Fall of an Empire 22",
         "quantity": 30,
-        "genre": "platformer",
+        "genre": "Platformer",
         "rating": "*"
     },
     {
         "number": 4,
-        "name": "Ladybirds",
+        "name": "Lady Birds",
         "quantity": 20,
         "genre": "FPS",
         "rating": "*"
     },
     {
         "number": 3,
-        "name": "Jigsaw puzzle",
+        "name": "Jigsaw Puzzle",
         "quantity": 10,
-        "genre": "brain-teaser",
+        "genre": "Brain Teasers",
         "rating": "**"
     },
     {
         "number": 6,
         "name": "U.F.O",
         "quantity": 5,
-        "genre": "strategy",
+        "genre": "Strategy",
         "rating": "***"
     },
     {
         "number": 7,
         "name": "Future 2525",
         "quantity": 25,
-        "genre": "brain-twister",
+        "genre": "Brain-Twister",
         "rating": "****"
     },
     {
         "number": 8,
-        "name": "ludo",
+        "name": "Ludo",
         "quantity": 80,
-        "genre": "board game",
+        "genre": "Board Games",
         "rating": "***"
+    },
+    {
+        "number": 9,
+        "name": "Sudoku",
+        "quantity": 30,
+        "genre": "Puzzle",
+        "rating": "*****"
+    },
+    {
+        "number": 10,
+        "name": "Monopoly",
+        "quantity": 20,
+        "genre": "Board Games",
+        "rating": "****"
+    },
+    {
+        "number": 11,
+        "name": "Chess",
+        "quantity": 50,
+        "genre": "Board Games",
+        "rating": "*****"
+    },
+    {
+        "number": 12,
+        "name": "Star Wars Jedi: Fallen Order",
+        "quantity": 60,
+        "genre": "Action Adventure",
+        "rating": "****"
     }
 ]

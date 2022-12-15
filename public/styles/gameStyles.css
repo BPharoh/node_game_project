@@ -9,8 +9,22 @@ main, form {
     
 }
 
-.form-group, label {
+.form-group label {
     min-width: 5rem;
+    text-align: right;
+    display: inline-block;
+    margin: 0 0.3rem;
+ }
+
+ .game-home {
+    display: flex;
+    flex-direction: column;
+   justify-items: left;
+ }
+
+ .game-home a{
+    padding: 0.5rem;
+    text-align: left;
  }
 
 input[readonly]{
@@ -37,6 +51,9 @@ button{
     width:13em;
     height: 2em;
     color: darkgreen;
+    background-color: cadetblue;
+    border-radius: 5px;
+    margin: 0.3rem;
 }
 
 p.error{
